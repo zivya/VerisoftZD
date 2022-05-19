@@ -11,8 +11,8 @@ package com.mycompany.verisoft_exec;
 abstract class Animal{
     protected boolean mammals;
     protected boolean carnivorous;
-    protected int MOOD_HAPPY=0;
-    protected int MOOD_SCARE=1;
+    final int MOOD_HAPPY=0;
+    final int MOOD_SCARE=1;
     protected int mood;
     public Animal(boolean mammals,boolean carnivorous,int mood ){
       this.mammals= mammals ;
